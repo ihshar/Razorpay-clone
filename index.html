@@ -52,6 +52,22 @@
       background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
       box-shadow: 0px 2px 22px rgb(202 202 202 /25%);
       }
+    .featurecard2:hover .featurecardbox {
+      background-image: url(/images/features2-wave.svg);
+      background-repeat: no-repeat;
+      background-position: bottom 1rem right;
+    }
+
+    .featurecard2:hover .featurecardSVG {
+      filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
+      stroke-opacity: 0 !important;
+    }
+
+    .featurecard2:hover .featurecardicon {
+      background-image: linear-gradient(188.57deg, #2095ff -16.05%, #6416ff 116.32%);
+      box-shadow: 0px 2px 24px rgb(0 0 0 / 40%);
+      transition: all 200ms ease-in-out;
+    }
     </style>
 </head>
 <body>
@@ -624,7 +640,7 @@
         class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pb-[500px] mt-14 pt-[15rem]">
         
         <div
-        class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4">
+        class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4 ">
 
                 <h2 class="font-mullish text-center text-2xl leading-[1.2] text-white font-bold hidden md:block"
                 >Explore Razorpay Business Banking</h2>
@@ -635,8 +651,8 @@
                 <div class="w-6 h-1 bg-greenLight mt-4 mb-6 md:mb-20 md:mx-auto"></div>
 
 
-                <!-- main feaeture box-->
-                <div class="w-full min-h[440px] flex flex-col relative">
+                <!-- main feature box-->
+                <div class="w-full min-h[440px] flex flex-col relative ">
                   <img alt="" src="/images/x-flame-1.png" loading="lazy" class="-top-[240px] -scale-x-[1] rotate-180 
                     md:scale-x-[1] md:rotate-0 -right-[50px] md:right-auto md:-top-[142px] md:-left-[140px] w-[180px] 
                     md:w-[200px] absolute z-10">
@@ -725,19 +741,19 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 my-14">
                         <!--box1-->
                         <div
-                        class="w-full min-h-[15rem] relative cursor-pointer featureCard2"
-                    >
+                        class="w-full min-h-[15rem] relative cursor-pointer featurecard2"
+                        >
                         <!-- box icon -->
                         <img
                         src="images/current-icon.svg"
-                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] transition-all duration-200 featurecardicon"
                         />
                         <!-- box shape -->
                         <svg
                         viewBox="0 0 349.32501220703125 225"
                         xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="none"
-                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] transition-all duration-200 featurecardSVG"
                         style="stroke-opacity: 0.8"
                         >
                         <path
@@ -757,7 +773,7 @@
                         </svg>
                         <!-- box content -->
                         <div
-                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox"
+                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featurecardbox"
                         >
                         <div>
                             <h3
@@ -784,19 +800,19 @@
                         </div>
                         <!--box2-->
                         <div
-                        class="w-full min-h-[15rem] relative cursor-pointer featureCard2"
+                        class="w-full min-h-[15rem] relative cursor-pointer featurecard2"
                     >
                         <!-- box icon -->
                         <img
                         src="images/capital-credit-icon.svg"
-                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] transition-all duration-200 featurecardicon"
                         />
                         <!-- box shape -->
                         <svg
                         viewBox="0 0 349.32501220703125 225"
                         xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="none"
-                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] transition-all duration-200 featurecardSVG"
                         style="stroke-opacity: 0.8"
                         >
                         <path
@@ -816,7 +832,7 @@
                         </svg>
                         <!-- box content -->
                         <div
-                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox"
+                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featurecardbox"
                         >
                         <div>
                             <h3
@@ -843,19 +859,19 @@
                         </div>
                         <!--box3-->
                         <div
-                        class="w-full min-h-[15rem] relative cursor-pointer featureCard2"
+                        class="w-full min-h-[15rem] relative cursor-pointer featurecard2"
                     >
                         <!-- box icon -->
                         <img
                         src="images/payouts-icon.svg"
-                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] transition-all duration-200 featurecardicon"
                         />
                         <!-- box shape -->
                         <svg
                         viewBox="0 0 349.32501220703125 225"
                         xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="none"
-                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] transition-all duration-200 featurecardSVG"
                         style="stroke-opacity: 0.8"
                         >
                         <path
@@ -875,7 +891,7 @@
                         </svg>
                         <!-- box content -->
                         <div
-                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox"
+                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featurecardbox"
                         >
                         <div>
                             <h3
