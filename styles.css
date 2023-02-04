@@ -49,3 +49,7 @@ background-image: linear-gradient(188.57deg, #2095ff -16.05%, #6416ff 116.32%);
 box-shadow: 0px 2px 24px rgb(0 0 0 / 40%);
 transition: all 200ms ease-in-out;
 }
+.contentscale{
+    background-image: url(/images/CTABg.svg);
+    background-size: cover
+}
